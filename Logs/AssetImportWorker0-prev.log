@@ -1,0 +1,121 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/stardust0722/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49365
+Successfully changed project path to: /Users/stardust0722/New Unity Project
+/Users/stardust0722/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stardust0722/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-16 06:36:14.610 Unity[3159:167824] (null) preferred device: Apple M1 (high power)
+2021-12-16 06:36:14.610 Unity[3159:167824] Metal devices available: 1
+2021-12-16 06:36:14.610 Unity[3159:167824] 0: Apple M1 (high power)
+2021-12-16 06:36:14.611 Unity[3159:167824] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56159
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002639 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.044 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.985 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.3 MB.
+System memory in use after: 194.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 1.446541 ms (FindLiveObjects: 0.119125 ms CreateObjectMapping: 0.029791 ms MarkObjects: 1.218459 ms  DeleteObjects: 0.078458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Left.png
+  artifactKey: Guid(9f5a558339e1a4f98aa29950e36a13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Left.png using Guid(9f5a558339e1a4f98aa29950e36a13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5480a261102a52372cf395ec60b8f0') in 0.501368 seconds 
+  Import took 0.504243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.053721 seconds.
+  path: Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Rect-.png
+  artifactKey: Guid(04ad16100f6a74a5091cc8bf67467828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Rect-.png using Guid(04ad16100f6a74a5091cc8bf67467828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998e7a413a3ab22e2aa5b47e2bd66fc') in 0.009804 seconds 
+  Import took 0.012660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.970416 seconds.
+  path: Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Downward.png
+  artifactKey: Guid(f10c70583b49740859af9f8e83e43667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Downward.png using Guid(f10c70583b49740859af9f8e83e43667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170b2cdf008b97ab495412ad444e5bd7') in 0.007211 seconds 
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.176385 seconds.
+  path: Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Right.png
+  artifactKey: Guid(1ad7de78f4f84460fa81128132333673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Right.png using Guid(1ad7de78f4f84460fa81128132333673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ae7b0b547cac4b878c39285f7db3c1') in 0.010265 seconds 
+  Import took 0.013385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.894801 seconds.
+  path: Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Upward.png
+  artifactKey: Guid(49c4867154d5f4a4985bc648f1498462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/SpritesSheets/Common/T_UI_Common_Gradient_Upward.png using Guid(49c4867154d5f4a4985bc648f1498462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a033edf1c9e3eae848a3300210a0e') in 0.006021 seconds 
+  Import took 0.008821 seconds .
+
